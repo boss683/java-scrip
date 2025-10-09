@@ -1,268 +1,275 @@
-+ console.log("hell mama");
-//  let declation
-let name = "hussein";
-console.log("name");
-// var decraliton
-// var age = 25;
-// age = 45
-
-// const maham = 3.34;
-
-// console.log("agee your name plece full ", age)
-
-// console.log("do you agree with low in the maham :", +age + "your", name);
-
-// console.log("maham");
-
-// let option = true;
-// console.log(option);
-// console.log(typeof option);
-// //  arithmetic 
-// let number1 = 120;
-// let number2 = 120;
-// let www = 120 + 120
-// console.log(www);
-// let x = 10;
-// ++x;
-// console.log(x);
-
-// let z = 10;
-// --z;
-// console.log(z);
-
-
-// let day ;
-// let day =(new Date().getDate()) 
-// {    
-// switch(Date)
-// case 0 :
-// day = "sunday";
-// break;
-// case 1:
-// day =     "monday";
-// break;
-// case 3:
-//     day = "tuesday";
 
 
 
 
+
+//  switch(new Date().getDay())
+//  {
+//     case 0:
+//         day = "Sunday";
+//          break;
+//     case 1:
+//         break;
+//     case 2:
+//         day = "Tuesday";
+//         break;
+//     case 3:
+//          day = "Wednesday";
+//          break;
+//      case 4:
+//         day = "Thursday";
+//         break;
+//     case 5:
+//         day = "Friday";
+//          break;
+//     case 6:
+//         day = "Saturday";
+//      }
+//  console.log(`day is the ${day}`);
+
+
+
+//  let time = new Date().getHours();
+// let greeting;
+//  if (time < 10) {
+//    greeting = "Good morning";
+//  } 
+//  else if (time < 20) {
+//   greeting = "Good day";
+//  }
+//   else {
+//    greeting = "Good evening";
+// }
+// console.log(greeting);
+ 
+// // nested if statements 
+// // let age = 25;
+// // let game = "Abdalsalam";
+// // if (age >= 18) 
+// //     console.log("You are an adult.")
+// //     if (game === "Abdalsalam") {
+// //         console.log("Welcome, Abdalsalam!");
+// //     }
+// //     else{
+// //         console.log("Welcome, guest!");
+// //     }
+
+
+
+//     // function
+//     function myFunction(){
+//         console.log("maham camp")
 
 //     }
-let day ;
-let date = new Date().getDate();
-switch (date) {
-    case 0:
-        day = "Monday";
-        break;
-    case 1:
-     day = "Tuesday";
-        break;
-    case 2:
-         day = "wednesday";
-        break;
-    case 3:
-       day = "thursday";
-        break;
-    case 4:
-        day = "firday";
-        break;
-    case 5:
-       day = "saturday";
-        break;
-    case 6:
-        day = "su";
+//     myFunction();
+
+
+//     let tell ="hussein"
+//     function printname (){
+
+//     console. log (tell)
+
+//     }
+//     // parent
+//     function calcutesum(num1,num2){
+//         return num1 + num2;
+//     }
+//     console.log(calcutesum(1,9 ))
+
+
+//     // lock 
+//     function calcutesum (){
+// let a = 4;
+// return a * a ;
+//     }
+//     console.log(calcutesum());
+
+
+
+// // if you sccsses
+
+//   let graded = "100";
+//  score= 95;
+
+// switch (grade) {
+//   case "A":
+//     if (score > 90) {               // condition inside switch case
+//       console.log("Excellent! You got a high A.");
+//     } else {
+//       console.log("Good job! You got a low A.");
+//     }
+//     break;
+
+//   case "B":
+//     if (score > 80) {
+//       console.log("Nice! You got a strong B.");
+//     }
+    
+//      else {
+//       console.log("Keep improving! You got a low B.");
+//     }
+//     break;
+
+//   default:
+//     console.log("Grade not recognized.");
+// }
+// // goalp 
+// let adam = "alight"
+// function display(){
+//     console.log(adam)
+
+// }
+// display();
+
+
+// // lock scope
+// function dispiay1(){
+
+// let rey = 13
+// console.log(rey)
+
+// }
+// dispiay1();
+ 
+// // return
+
+
+// function dispiay2(a){
+//     return a * a;
+//     console.log ( display(3))
+//      console.log( "futuer nrear time in past")
+
+// } 
+
+// let age = 18;
+
+// if (age >= 18) {
+//   console.log("You are an adult.");
+// }
+
+
+
+// multiplication
+//  let num = 12;
+// console.log("1 x "+num +"=", 1*num);
+// console.log("2 x "+num +"=", 2*num);
+// console.log("3 x "+num +"=", 3*num);
+// console.log("4 x "+num +"=", 4*num);
+// console.log("5 x "+num +"=", 5*num);
+// console.log("6 x "+num +"=", 6*num);
+//  console.log("7 x "+num +"=", 7*num);
+//  console.log("8 x "+num +"=", 8*num);
+//  console.log("9 x "+num +"=", 9*num);
+//  console.log("10 x "+num +"=", 10*num);
+//  console.log("11 x "+num +"=", 11*num);
+//  console.log("12 x "+num +"=", 12*num);
+    
+
+
+//  loop
+
+for (let n=1;n <10; n++){
+  console.log("number",n);
+}
+
+
+// dicrece
+
+ for (let m=100;m >0; m--){
+  console.log("for (let m=100;m >0; m--) ",m*2);
 
 }
-console.log("the day is" + day);
-
-
-let Age = 16;
-let hussein =(Age >25 )? "he is not chiled ": "alod man ";
-console. log(hussein) 
+for (let hd=3;hd<=12; hd ++){
+  console.log("6x"+hd+"=",hd*1)
+}
 
 
 
 
+//  I  will back  this worke 
+for ( let hussein =1; hussein <= 10; hussein ++){
+   console.log(hussein);
 
+  if(hussein===6){
 
- switch(new Date().getDay())
- {
-    case 0:
-        day = "Sunday";
-         break;
-    case 1:
-        break;
-    case 2:
-        day = "Tuesday";
-        break;
-    case 3:
-         day = "Wednesday";
-         break;
-     case 4:
-        day = "Thursday";
-        break;
-    case 5:
-        day = "Friday";
-         break;
-    case 6:
-        day = "Saturday";
-     }
- console.log(`day is the ${day}`);
+    console.log("thes is life in the mahama is this good",hussein);
+    break;
+  }
+}
 
+for ( let hussein =1; hussein <= 10; hussein ++){
+   console.log(hussein);
 
+  if(hussein===6){
 
- let time = new Date().getHours();
-let greeting;
- if (time < 10) {
-   greeting = "Good morning";
- } 
- else if (time < 20) {
-  greeting = "Good day";
+    console.log("thes is life in the mahama is this good",hussein);
+    break;
+  }
+
  }
-  else {
-   greeting = "Good evening";
-}
-console.log(greeting);
- 
-// nested if statements 
-let age = 25;
-let game = "Abdalsalam";
-if (age >= 18) 
-    console.log("You are an adult.")
-    if (game === "Abdalsalam") {
-        console.log("Welcome, Abdalsalam!");
-    }
-    else{
-        console.log("Welcome, guest!");
-    }
 
+for ( let hussein =1; hussein <= 10; hussein ++){
+   console.log(hussein);
 
+  if(hussein===6){
 
-    // function
-    function myFunction(){
-        console.log("maham camp")
-
-    }
-    myFunction();
-
-
-    let tell ="hussein"
-    function printname (){
-
-    console. log (tell)
-
-    }
-    // parent
-    function calcutesum(num1,num2){
-        return num1 + num2;
-    }
-    console.log(calcutesum(1,9 ))
-
-
-    // lock 
-    function calcutesum (){
-let a = 4;
-return a * a ;
-    }
-    console.log(calcutesum());
-
-
-
-// if you sccsses
-
-  let grade = "A";
-let score = 95;
-
-switch (grade) {
-  case "A":
-    if (score > 90) {               // condition inside switch case
-      console.log("Excellent! You got a high A.");
-    } else {
-      console.log("Good job! You got a low A.");
-    }
+    console.log("thes is life in the mahama is this good",hussein);
     break;
-
-  case "B":
-    if (score > 80) {
-      console.log("Nice! You got a strong B.");
-    }
-    
-     else {
-      console.log("Keep improving! You got a low B.");
-    }
-    break;
-
-  default:
-    console.log("Grade not recognized.");
-}
-// goalp 
-let adam = "alight"
-function display(){
-    console.log(adam)
-
-}
-display();
-
-
-// lock scope
-function dispiay1(){
-
-let rey = 13
-console.log(rey)
-
-}
-dispiay1();
- 
-// return
-
-
-function dispiay2(a){
-    return a * a;
-    // console.log ( display(3))
-    // console.log( "futuer nrear time in past")
-
-} 
-// function expression
- console.log ( display(3))
- let coll = function(ten){
-    
+  }
  }
 
 
 
 
+//  loop while
+Do while 
+   let i=10
+   while(i<10){
+    console.log(i);
+    i++;
 
-// let time2 = new Date().getHours();
-// let greeting2 = (time2 < 10) ? "Good morning" :
-//   (time2 < 20) ? "Good day" :
-//   "Good evening";
-// console.log(greeting2);
+   }
 
-// // function
-// function myFunction() {
-//     console.log("hello function");
-// }
-// myFunction();
+ let harmane =10;
+do {
+console.log(harmane)
+harmane ++;
 
-// function myFunction2(name,age) {
-//     console.log("hello function your name is "+name+" your age is "+age);
-// }
-// myFunction2("hussein",25);
+} while(harmane<10)
 
-// function myFunction3(name,age) {
-//     return "hello function your name is "+name+" your age is "+age;
-// }
-// let result = myFunction3("hussein",25);
-// console.log(result);
 
-// // array
-// let fruits = ["apple","banana","mango"];
-// console.log(fruits);
-// console.log(fruits[0]);
-// console.log(fruits.length);
-// fruits.push("orange");
-// console.log(fruits);                                    
+  let sum = 0;
+let 
+for (){
+
+
+}
+
+let sum=0;
+for (let i = 1; i < 100;i++) {
+  if(i%2 === 0) { 
+   console.log(sum+=i);       
+  }
+}
+
+let sum=0;
+for (let x = 1; x < 100;x++) {
+  if(x% 3=== 0) { 
+   console.log(sum+=x);       
+  }
+}
+
+
+console.log("2 x 2 =",2*num);
+console.log("3 x 2 =",3*num);
+console.log("4 x 2 =",4*num);
+console.log("5 x 2 =",5*num);
+console.log("6 x 2 =",6*num);
+console.log("7 x 2 =",7*num);
+console.log("8 x 2 =",8*num);
+console.log("9 x 2 =",9*num);
+console.log("10 x 2 =",10*num);
+
 
 
 
