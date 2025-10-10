@@ -1,0 +1,14 @@
+#one{
+    width: 100%;
+    height: 800px;
+    background-image:linear-gradient(300deg, rgba(0, 0, 255, 0.582) , rgba(0, 128, 0, 0.397));
+}
+.red {
+
+width: 100%;
+height: 15%;
+margin-top: 30px;
+border-radius: 25;
+background-color: rgb(25, 34, 31);
+color: azure;
+}

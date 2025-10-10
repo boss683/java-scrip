@@ -168,97 +168,99 @@
 
 //  loop
 
-for (let n=1;n <10; n++){
-  console.log("number",n);
-}
+// for (let n=1;n <10; n++){
+//   console.log("number",n);
+// }
 
 
-// dicrece
+// // dicrece
 
- for (let m=100;m >0; m--){
-  console.log("for (let m=100;m >0; m--) ",m*2);
+//  for (let m=100;m >0; m--){
+//   console.log("for (let m=100;m >0; m--) ",m*2);
 
-}
-for (let hd=3;hd<=12; hd ++){
-  console.log("6x"+hd+"=",hd*1)
-}
-
-
-
-
-//  I  will back  this worke 
-for ( let hussein =1; hussein <= 10; hussein ++){
-   console.log(hussein);
-
-  if(hussein===6){
-
-    console.log("thes is life in the mahama is this good",hussein);
-    break;
-  }
-}
-
-for ( let hussein =1; hussein <= 10; hussein ++){
-   console.log(hussein);
-
-  if(hussein===6){
-
-    console.log("thes is life in the mahama is this good",hussein);
-    break;
-  }
-
- }
-
-for ( let hussein =1; hussein <= 10; hussein ++){
-   console.log(hussein);
-
-  if(hussein===6){
-
-    console.log("thes is life in the mahama is this good",hussein);
-    break;
-  }
- }
+// }
+// for (let hd=3;hd<=12; hd ++){
+//   console.log("6x"+hd+"=",hd*1)
+// }
 
 
 
 
-//  loop while
-Do while 
-   let i=10
-   while(i<10){
-    console.log(i);
-    i++;
+// //  I  will back  this worke 
+// for ( let hussein =1; hussein <= 10; hussein ++){
+//    console.log(hussein);
 
-   }
+//   if(hussein===6){
 
- let harmane =10;
-do {
-console.log(harmane)
-harmane ++;
+//     console.log("thes is life in the mahama is this good",hussein);
+//     break;
+//   }
+// }
 
-} while(harmane<10)
+// for ( let hussein =1; hussein <= 10; hussein ++){
+//    console.log(hussein);
+
+//   if(hussein===6){
+
+//     console.log("thes is life in the mahama is this good",hussein);
+//     break;
+//   }
+
+//  }
+
+// for ( let hussein =1; hussein <= 10; hussein ++){
+//    console.log(hussein);
+
+//   if(hussein===6){
+
+//     console.log("thes is life in the mahama is this good",hussein);
+//     break;
+//   }
+//  }
 
 
-  let sum = 0;
-let 
-for (){
 
 
-}
+// //  loop while
+// Do while 
+//    let i=10
+//    while(i<10){
+//     console.log(i);
+//     i++;
 
-let sum=0;
-for (let i = 1; i < 100;i++) {
-  if(i%2 === 0) { 
-   console.log(sum+=i);       
-  }
-}
+//    }
 
-let sum=0;
-for (let x = 1; x < 100;x++) {
-  if(x% 3=== 0) { 
-   console.log(sum+=x);       
-  }
-}
+//  let harmane =10;
+// do {
+// console.log(harmane)
+// harmane ++;
 
+// } while(harmane<10)
+
+
+//   let sum = 0;
+// let 
+// for (){
+
+
+// }
+
+// let sum=0;
+// for (let i = 1; i < 100;i++) {
+//   if(i%2 === 0) { 
+//    console.log(sum+=i);       
+//   }
+// }
+
+// let sum=0;
+// for (let x = 1; x < 100;x++) {
+//   if(x% 3=== 0) { 
+//    console.log(sum+=x);       
+//   }
+// }
+
+let num=2;
+let a = prompt (5)
 
 console.log("2 x 2 =",2*num);
 console.log("3 x 2 =",3*num);
@@ -270,8 +272,12 @@ console.log("8 x 2 =",8*num);
 console.log("9 x 2 =",9*num);
 console.log("10 x 2 =",10*num);
 
+// let fgima= 20;
+// for( fgima; 20;fgima ++){
 
+//   console.log("figma",fgima);
 
+// }
 
 
 
