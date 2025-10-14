@@ -259,33 +259,131 @@
 //   }
 // }
 
-let num=2;
-let a = prompt (5)
+// let num=2;
+// let a = prompt (5)
 
-console.log("2 x 2 =",2*num);
-console.log("3 x 2 =",3*num);
-console.log("4 x 2 =",4*num);
-console.log("5 x 2 =",5*num);
-console.log("6 x 2 =",6*num);
-console.log("7 x 2 =",7*num);
-console.log("8 x 2 =",8*num);
-console.log("9 x 2 =",9*num);
-console.log("10 x 2 =",10*num);
+//  console.log("2 x 2 =",2*num);
+//  console.log("3 x 2 =",3*num);
+//  console.log("4 x 2 =",4*num);
+//  console.log("5 x 2 =",5*num);
+// console.log("6 x 2 =",6*num);
+//  console.log("7 x 2 =",7*num);
+// console.log("8 x 2 =",8*num);
+// console.log("9 x 2 =",9*num);
+// console.log("10 x 2 =",10*num);
 
 // let fgima= 20;
 // for( fgima; 20;fgima ++){
-
-//   console.log("figma",fgima);
+//    console.log("figma",fgima);
 
 // }
+// // 
+//
+// do {
+//   let life1 = +prompt("Enter first number:");
+//   let operator = + prompt("Enter operator (+, -, *, /, %):");
+//   let life2 = +prompt(" Enter second number:");
+//   let result;
+
+//   switch (operator) {
+//     case "+": result = life1 + life2; break;
+//     case "-": result = life1 - life2; break;
+//     case "*": result = life1 * life2; break;
+//     case "/": result = life1 / life2; break;
+//     case "%": result = life1 % life2; break;
+//     default: console.log("Invalid operator");
+//   }
+
+//   console.log(`Result: ${result}`);
+//   console.log(result % 2 === 0? "Even" : "Odd"); 
+
+//  }
+//  while (confirm("Do another calculation?"));
+// my worke 
+// do{  
+// let www1 = + prompt ("enter your number first ");
+// let opertor =+prompt ("Enter operater (+,-,*,/,%):");
+// let www2 =+ prompt("Enter second number:")
+// let reslut;
+// switch(operater){
+//   case "+": result = www1 + www2 ;break;
+//   case "-":result = www1 - www2 ;break;
+//   case "*":result =www1 * www2 ;break ;
+//   case "%": result =www1 % www2 ;break ;
+//   case "/": result = www1 / www2 ;break ;
+//   default: console.log("invalid oprater")
+// }
+// console.log("result ${result}")
+// console.log( result %2 === 0 ? "Even":"odd");
+// }
+// while (confirm("do anther calulation"))
+
+
+
+
+  
+  // 
+// let a=1
+// let b =15
+// for(let  =1;a<b;b++){
+//   console.log()
+// }
+
+// let n =20 
+// for(lte i=0;i<n;i++);     
 
 
 
 
 
+//  area premiter 
+// let l=5;
+// let w=4;
+// let a;
+// let p;
+// a=(w*l);
+// console.log("the area  ",a)
+// p=(l+w)
+// console.log("the peruter",p)
 
 
 
+
+let weight=prompt('Enter your weight');
+let hight=prompt('Enter your hight');
+
+let BMI = weight /(hight*hight);
+
+if (BMI<=18.4){
+    console.log(BMI +''+"underWeight");
+}
+else if (BMI>=25 && BMI<= 24.9){
+    console.log(BMI +''+ +''+"normal");
+}
+
+
+else if (BMI>=25 && BMI<= 39.9){
+    console.log(BMI +''+ +''+"OverWeight");
+}
+
+
+
+else if (BMI>=40){
+    console.log(BMI +''+ "Over lod");
+}
+
+
+
+
+// let hight= prompt("enter your mass");
+// let hight1= prompt("enter your hight ");
+// let MBI= hight/(hight*hight)
+// if (BMI<=18.4){
+//   console.log(BMI + ''+ "normal")
+// }
+// else if( BMI >=25 && BMI <= 24.9){
+//   console.log(BMI+''++ '+')
+// }
 
 
 
