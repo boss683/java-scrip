@@ -386,9 +386,6 @@
 // }
 
 
-// let a=4
-// let b=6
-// console.log("a=",a,"b=",b)
 
 
 
@@ -403,18 +400,70 @@
 
 
 
-let sum = 0;
-let count = 0;
+  // let sum = 0;
+  // let count = 0;
 
-for (let i = +10; i <= 90; i++) {
-  if (i % 4 === 0) {
-    sum += i;
-    count++;
-  }
+  // for (let i = +10; i <= 90; i++) {
+  //   if (i % 4 === 0) {
+  //     sum += i;
+  //     count++;
+  //   }
+  // }
+
+  // let average = sum / count;
+  // console.log("The average of even numbers between 10 and 70 is:", average);
+
+
+// let sum = 0;
+// let count=0;
+// for ( let r =+10; r <=80;r++){
+//   if (r % 4===0){
+//     sum += r;
+//     count++;
+//   }
+// }
+//  let average = sum / count ;
+//   console.log ("the average of even numbers between 10 and 90 is :",average)
+
+
+// porgrameng helpe the user seclcter
+
+
+  let category = prompt("electronics, clothing, or food?");
+
+switch(category) {
+    case "electronics":
+        let elec = prompt("computer, smartphone, or headphones?");
+        switch(elec) {
+            case "computer": console.log("$2000"); break;
+            case "smartphone": console.log("$800"); break;
+            case "headphones": console.log("$150"); break;
+        }
+        break;
+        
+    case "clothing":
+        let cloth = prompt("tshirt, jeans, or jacket?");
+        switch(cloth) {
+            case "tshirt": console.log("$25"); break;
+            case "jeans": console.log("$60"); break;
+            case "jacket": console.log("$120"); break;
+        }
+        break;
+        
+    case "food":
+        let food = prompt("pizza, burger, or salad?");
+        switch(food) {
+            case "pizza": console.log("$15"); break;
+            case "burger": console.log("$8"); break;
+            case "salad": console.log("$12"); break;
+        }
+        break;
 }
 
-let average = sum / count;
-console.log("The average of even numbers between 10 and 70 is:", average);
+
+  
+
+
 
 
 
