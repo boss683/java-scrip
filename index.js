@@ -349,28 +349,28 @@
 
 
 
-let weight=prompt('Enter your weight');
-let hight=prompt('Enter your hight');
+// let weight=prompt('Enter your weight');
+// let hight=prompt('Enter your hight');
 
-let BMI = weight /(hight*hight);
+// let BMI = weight /(hight*hight);
 
-if (BMI<=18.4){
-    console.log(BMI +''+"underWeight");
-}
-else if (BMI>=25 && BMI<= 24.9){
-    console.log(BMI +''+ +''+"normal");
-}
-
-
-else if (BMI>=25 && BMI<= 39.9){
-    console.log(BMI +''+ +''+"OverWeight");
-}
+// if (BMI<=18.4){
+//     console.log(BMI +''+"underWeight");
+// }
+// else if (BMI>=25 && BMI<= 24.9){
+//     console.log(BMI +''+ +''+"normal");
+// }
 
 
+// else if (BMI>=25 && BMI<= 39.9){
+//     console.log(BMI +''+ +''+"OverWeight");
+// }
 
-else if (BMI>=40){
-    console.log(BMI +''+ "Over lod");
-}
+
+
+// else if (BMI>=40){
+//     console.log(BMI +''+ "Over lod");
+// }
 
 
 
@@ -384,6 +384,37 @@ else if (BMI>=40){
 // else if( BMI >=25 && BMI <= 24.9){
 //   console.log(BMI+''++ '+')
 // }
+
+
+// let a=4
+// let b=6
+// console.log("a=",a,"b=",b)
+
+
+
+// let t;
+// result;
+// prompt("enter any number ")
+// for(t++)
+
+// console.log(t)
+
+
+
+
+
+let sum = 0;
+let count = 0;
+
+for (let i = +10; i <= 90; i++) {
+  if (i % 4 === 0) {
+    sum += i;
+    count++;
+  }
+}
+
+let average = sum / count;
+console.log("The average of even numbers between 10 and 70 is:", average);
 
 
 
