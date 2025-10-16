@@ -1,4 +1,7 @@
-// In JavaScript, an array is a special type of object used to store and manage an ordered collection of values.These values, also known as elements, can be of any data type, including numbers, strings, booleans, objects, or even other arrays.
+// In JavaScript, an array is a special type of object used to store
+//  and manage an ordered collection of values.These values, also known as 
+// elements, can be of any data type, including numbers, strings, booleans, 
+// objects, or even other arrays.
 
 
 
@@ -151,8 +154,8 @@ for (let i = 0; i < fruits5.length; i++) {
 }
 
 console.log("\nUsing for...of loop:");
-for (let fruit of fruits5) {
-  console.log(fruit);
+for (let fruits5 of fruits5) {
+  console.log(fruits5);
 }
 
 console.log("\nUsing while loop:");
