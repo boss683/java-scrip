@@ -7,7 +7,7 @@ fruits.push("orange");
 console.log(fruits); 
 
 // 2. .pop()Removes the last item from an array.
-let colors = ["red", "green", "blue"];
+let colors = ["red", "green", "blue","hass"];
 colors.pop();
 console.log(colors);
 
@@ -17,7 +17,7 @@ let animals = ["dog", "cat", "rabbit"];
 animals.shift();
 console.log(animals);
 
-// 4. .unshift()Adds one or more items to the beginning of an array.
+// 4. .unshift()Adds  one or more items to the beginning of an array.
 let numbers = [2, 3, 4];
 numbers.unshift(1);
 console.log(numbers);
@@ -381,3 +381,5 @@ console.log(sentenc);
 // Flatten, copy, and clean arrays (flat, slice, Set)
 
 // Combine or join arrays into strings
+
+
